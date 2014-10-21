@@ -14,7 +14,7 @@ mybatis-generator-plugins-auto-comments
 ```xml
     <plugin type="org.mybatis.generator.plugin.CommentPlugin">
     	<!-- 制定java bean的作者，默认情况下会读取计算机当前用户作为作者 -->
-	<property name="modelClassAuthor" value="tanxw"/>
+	<property name="modelClassAuthor" value="myname"/>
     </plugin>
 	<commentGenerator>
 		<!-- 不生成原生的注解信息 -->
