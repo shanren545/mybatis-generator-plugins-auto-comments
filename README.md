@@ -12,6 +12,7 @@ mybatis-generator-plugins-auto-comments
 2. 在generatorConfig.xml（也可能叫别的名字）配置文件中进行如下配置：
 
 <code>
+<pre>
     &lt;plugin type="org.mybatis.generator.plugin.CommentPlugin">
     	&lt;!-- 制定java bean的作者，默认情况下会读取计算机当前用户作为作者 -->
 			&lt;property name="modelClassAuthor" value="tanxw"/>
@@ -20,4 +21,5 @@ mybatis-generator-plugins-auto-comments
 			<!-- 不生成原生的注解信息 -->
 		&lt;property name="suppressAllComments" value="true" />
 	&lt;/commentGenerator>
+</pre>
 </code>
